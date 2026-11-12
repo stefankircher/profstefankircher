@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F7F3FA;
+    color: #1F1924;
+    background-image: 
+      repeating-linear-gradient(0deg, rgba(140, 120, 160, 0.06) 0px, rgba(140, 120, 160, 0.06) 1px, transparent 1px, transparent 4px),
+      repeating-linear-gradient(90deg, rgba(140, 120, 160, 0.06) 0px, rgba(140, 120, 160, 0.06) 1px, transparent 1px, transparent 4px),
+      linear-gradient(135deg, #FBF8FD 0%, #F5EEF9 50%, #EFE5F5 100%);
+    background-attachment: fixed;
+  }
+}
+
+/* 3D Embroidered Gold Thread Text Effect */
+.embroidered-gold-text {
+  color: #FCD34D;
+  text-shadow: 
+    0 1px 0 #D97706,
+    0 2px 0 #B45309,
+    0 3px 0 #92400E,
+    0 4px 0 #78350F,
+    0 5px 6px rgba(0, 0, 0, 0.5),
+    0 0 12px rgba(251, 191, 36, 0.4);
+  -webkit-text-stroke: 1.5px #78350F;
+}
+
+/* 3D Embroidered White Stitch Text */
+.embroidered-white-text {
+  color: #FFFFFF;
+  text-shadow: 
+    0 1px 0 #CBD5E1,
+    0 2px 0 #94A3B8,
+    0 3px 4px rgba(0, 0, 0, 0.45);
+  letter-spacing: 0.06em;
+}
+
+/* Purple Fabric Banner with Twill Weave Texture */
+.purple-fabric-patch {
+  background-color: #6D28D9;
+  background-image: 
+    repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.12) 0, rgba(0, 0, 0, 0.12) 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.06) 0, rgba(255, 255, 255, 0.06) 2px, transparent 2px, transparent 4px),
+    linear-gradient(180deg, #7C3AED 0%, #6D28D9 50%, #5B21B6 100%);
+  box-shadow: 
+    inset 0 2px 4px rgba(255, 255, 255, 0.25),
+    inset 0 -3px 6px rgba(0, 0, 0, 0.4),
+    0 8px 20px -4px rgba(76, 29, 149, 0.35);
+}
+
+/* Stitched Seam Border */
+.sewn-border {
+  border: 2.5px dashed rgba(255, 255, 255, 0.75);
+  outline: 2px solid rgba(0, 0, 0, 0.15);
+  outline-offset: -5px;
+}
+
+/* Linen Patch Card */
+.linen-card {
+  background-color: #FDFBF7;
+  background-image: 
+    repeating-linear-gradient(0deg, rgba(160, 140, 120, 0.06) 0px, rgba(160, 140, 120, 0.06) 1px, transparent 1px, transparent 5px),
+    repeating-linear-gradient(90deg, rgba(160, 140, 120, 0.06) 0px, rgba(160, 140, 120, 0.06) 1px, transparent 1px, transparent 5px);
+  border: 2px dashed #C8BCAC;
+  box-shadow: 0 4px 14px rgba(60, 45, 30, 0.06);
+}
+
+/* Embroidered Patch Look with 3D White Stitch Edge */
+.embroidered-patch {
+  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.22));
+}
+

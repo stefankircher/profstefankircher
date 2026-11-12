@@ -1,0 +1,6 @@
+{
+  "name": "Ateliê Costura POA - Aulas do Zero na Azenha",
+  "description": "Aprenda a Costurar Suas Próprias Peças do Zero em Porto Alegre. Aulas 100% práticas no Bairro Azenha com turmas reduzidas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
